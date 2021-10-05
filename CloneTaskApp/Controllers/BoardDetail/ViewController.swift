@@ -24,7 +24,6 @@ class ViewController: UICollectionViewController {
                 return
             }
             count += 1
-            print("動いた", Date(), count)
             shareBoardViewModel.movingTask(listName: Array(tasks.keys).first!, cardName: (tasks[taskFirst]?.last)!)
         }
     }

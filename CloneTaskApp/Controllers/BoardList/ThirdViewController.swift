@@ -46,7 +46,6 @@ class ThirdViewController: UIViewController {
             sharedBoardViewModel.boards = []
         }
         sharedBoardViewModel.getBoardName().subscribe { boardData in
-            print("発動", self.sharedBoardViewModel.boards)
         } onError: { Error in
             print("エラーです")
         } onCompleted: {

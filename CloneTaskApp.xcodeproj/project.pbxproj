@@ -20,7 +20,6 @@
 		9058E54C26F5F5FA007EE467 /* EditCardNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058E54B26F5F5FA007EE467 /* EditCardNameViewController.swift */; };
 		9058E55226F5F729007EE467 /* SettingDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058E55126F5F729007EE467 /* SettingDateViewController.swift */; };
 		9058E55526F5F796007EE467 /* SettingDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058E55426F5F796007EE467 /* SettingDescriptionViewController.swift */; };
-		9060F43D26FCBBEA00CA4986 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060F43C26FCBBEA00CA4986 /* APIService.swift */; };
 		9060F43F26FCC05400CA4986 /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060F43E26FCC05400CA4986 /* BoardViewModel.swift */; };
 		9070EFA2270152510065B311 /* AddCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070EFA1270152510065B311 /* AddCardsViewController.swift */; };
 		9070EFA42701B8350065B311 /* AddDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9070EFA32701B8350065B311 /* AddDescriptionViewController.swift */; };
@@ -83,7 +82,6 @@
 		9058E54B26F5F5FA007EE467 /* EditCardNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardNameViewController.swift; sourceTree = "<group>"; };
 		9058E55126F5F729007EE467 /* SettingDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDateViewController.swift; sourceTree = "<group>"; };
 		9058E55426F5F796007EE467 /* SettingDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDescriptionViewController.swift; sourceTree = "<group>"; };
-		9060F43C26FCBBEA00CA4986 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		9060F43E26FCC05400CA4986 /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
 		9070EFA1270152510065B311 /* AddCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardsViewController.swift; sourceTree = "<group>"; };
 		9070EFA32701B8350065B311 /* AddDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDescriptionViewController.swift; sourceTree = "<group>"; };
@@ -359,7 +357,6 @@
 			isa = PBXGroup;
 			children = (
 				90E530B726F427A700BE1628 /* AlartUtil.swift */,
-				9060F43C26FCBBEA00CA4986 /* APIService.swift */,
 				9060F43E26FCC05400CA4986 /* BoardViewModel.swift */,
 			);
 			path = Utils;
@@ -648,7 +645,6 @@
 				90B0AFAB26F211B0009EA94E /* AddBoardViewCotroller.swift in Sources */,
 				90D72C0826F0B68400AAFD3A /* SceneDelegate.swift in Sources */,
 				90B0AFB126F217E4009EA94E /* ThirdViewHeader.swift in Sources */,
-				9060F43D26FCBBEA00CA4986 /* APIService.swift in Sources */,
 				907F692E26F71D15003B39B8 /* DateDetailViewController.swift in Sources */,
 				9042050D26F4D2FE001BDDBE /* MoveToCardHeaderView.swift in Sources */,
 				9058E54C26F5F5FA007EE467 /* EditCardNameViewController.swift in Sources */,

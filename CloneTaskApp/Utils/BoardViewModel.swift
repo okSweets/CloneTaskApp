@@ -66,7 +66,6 @@ class BoardViewModel {
             else {
                 let getData = snapShot?.data()
                 self.currentBoard = board(boardID: snapShot!.documentID, boardName: getData!["boardName"] as! String)
-                print("すごい", self.currentBoard)
             }
         }
     }

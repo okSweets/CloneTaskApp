@@ -117,7 +117,6 @@ class SelectDeleteListViewController: UIViewController {
     }
     
     @objc func tapSaveButton() {
-        print("keita",PickerTextField.text)
         if PickerTextField.text == "" {
             print("エラーです")
             shareAlert.showSingleAlert(vc: self, alertTitle: "削除するリストを指定してください", message: "削除するリストをしなければ行えません", okTitle: "OK", okHandler: nil)
